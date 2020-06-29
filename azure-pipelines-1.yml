@@ -28,6 +28,9 @@ steps:
     artifactoryResolverService: 'artifactory-service'
     targetResolveReleaseRepo: 'libs-release'
     targetResolveSnapshotRepo: 'libs-snapshot'
+    artifactoryDeployService: 'artifactory-service'
+    targetDeployReleaseRepo: 'libs-release-local'
+    targetDeploySnapshotRepo: 'libs-snapshot-local'
     collectBuildInfo: true
     buildName: '$(Build.DefinitionName)'
     buildNumber: '$(Build.BuildNumber)'
